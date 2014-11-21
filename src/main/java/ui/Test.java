@@ -22,7 +22,7 @@ public class Test  {
 		
 		System.out.println(s);
 		
-		 Socket socket = new Socket("127.0.0.1", 8877);
+		 Socket socket = new Socket("127.0.0.1", 2233);
 		 
 		 
 		 OutputStreamWriter osw = new OutputStreamWriter(socket.getOutputStream());
